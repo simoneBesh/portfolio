@@ -1,0 +1,46 @@
+h1{
+    color:rgb(145, 190, 190);
+}
+
+*{border: solid;} 
+*{color:rosybrown;}
+
+.header{
+    background-color: rgb(100, 100, 167);
+    display: flex; 
+    justify-content: space-between;
+}
+
+.menu{
+    background-color: rgb(187, 214, 140);
+}
+
+.description{
+    background-color: thistle;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(255, 223, 136);
+}
+
+.footer{
+    display:flex;
+    justify-content: flex-end;
+    background-color: lightpink;
+}
+
+.items{
+    display: flex;
+    align-items: stretch;
+}
+
+p, h2{
+    text-align: center;
+}
+
+.beginning{
+    background-color: rgb(179, 235, 230);
+}
